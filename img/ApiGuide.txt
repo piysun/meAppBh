@@ -1,4 +1,4 @@
-
+Insert
 POST:
 localhost:3000/api/insert_data
 
@@ -9,5 +9,16 @@ localhost:3000/api/insert_data
   "IteamBought": "false"
 }
 
+Get all Records
 get
 localhost:3000/api/testing_get_route
+
+Update Records
+POST
+http://localhost:3000/api/update_data/5b6966c53d96d337a8c748fb
+
+{
+  "iteamName": "wewe",
+  "iteamQuantity": 500,
+  "IteamBought": "false"
+}

@@ -30,8 +30,22 @@ router.post('/insert_data', (req, res, next) => {
     });
 });
 
-router.put('update_data', (req, res, next) => {
-
+router.post('/update_data/:id', (req, res, next) => {
+    Item.findOneAndUpdate({ _id: req.params.id }, {
+        $set: {
+            iteamName: req.body.iteamName,
+            iteamQuantity: req.body.iteamQuantity,
+            IteamBought: req.body.IteamBought
+        }
+    },
+    function(error ,result){
+        if (error) {
+            res.json(error);
+        }
+        else {
+            res.json();
+        }
+    })
 });
 
 router.delete('delete_data', (req, res, next) => {
