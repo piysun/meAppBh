@@ -1,0 +1,13 @@
+
+POST:
+localhost:3000/api/insert_data
+
+
+{
+  "iteamName": "Egs",
+  "iteamQuantity": 1500,
+  "IteamBought": "false"
+}
+
+get
+localhost:3000/api/testing_get_route
