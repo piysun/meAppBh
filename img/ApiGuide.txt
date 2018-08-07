@@ -22,3 +22,6 @@ http://localhost:3000/api/update_data/5b6966c53d96d337a8c748fb
   "iteamQuantity": 500,
   "IteamBought": "false"
 }
+
+
+http://13.232.31.106:3000/api/testing_get_route
