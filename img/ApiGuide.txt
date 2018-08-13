@@ -25,3 +25,7 @@ http://localhost:3000/api/update_data/5b6966c53d96d337a8c748fb
 
 
 http://13.232.31.106:3000/api/testing_get_route
+
+
+
+https://codeforgeek.com/2014/07/node-email-verification-script/
