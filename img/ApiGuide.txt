@@ -29,6 +29,11 @@ http://13.232.31.106:3000/api/testing_get_route
 
 
 https://codeforgeek.com/2014/07/node-email-verification-script/
+
+******************************************************
+ionic cordova plugin add cordova-plugin-googleplus --variable REVERSED_CLIENT_ID=55845666138-2qkbmb2stctmfpm66o6s2m0883m2sptf.apps.googleusercontent.com
+
+
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 var express = require('express');
